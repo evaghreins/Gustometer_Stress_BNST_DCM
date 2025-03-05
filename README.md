@@ -12,4 +12,5 @@ Main results
 
 Supplementary information
 - Demographics
+- Hunger, stress and beverage pleasantness ratings
 - SCR
