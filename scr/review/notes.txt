@@ -1,0 +1,27 @@
+This directory contains MATLAB functions for processing and analyzing 
+spontaneous fluctuations using the PsychoPhysiological Modelling (PsPM)
+toolbox.
+
+Functions:
+
+-   `stress_irr`
+    Assesses inter-rater reliability (IRR) by comparing subject exclusions 
+    across raters.
+
+-   `stress_mp`
+    Prepares the preprocessed PsPM-formatted data, standardizes the length 
+    of time series (120 s), and runs model-based analysis. These 
+    preprocessed data are not provided here, in the repository (and this 
+    function serves as reference material only).
+
+-   `stress_test_update`
+    Compares spontaneous fluctuations across sessions, performs a t-test, 
+    and generates a raincloud plot. The processed data (inveretd models) 
+    are provided here, in the repository. See "sf" directory.
+
+Dependencies:
+
+-   PsPM Toolbox: https://github.com/bachlab/PsPM
+-   daviolinplot (for raincloud plot visualization):
+    https://doi.org/10.5281/zenodo.12749045
+
