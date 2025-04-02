@@ -18,8 +18,8 @@ clear
 close all
 
 % Load GCM and design matrix
-load('../data/GCM_Stress_cue.mat');
-load('../M/M_cue.mat'); 
+load('./data/GCM_Stress_cue.mat');
+load('./M/M_cue.mat'); 
 
 X = dm.X;
 K = width(X);
