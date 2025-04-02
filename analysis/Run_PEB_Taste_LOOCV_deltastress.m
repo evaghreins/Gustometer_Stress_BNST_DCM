@@ -18,8 +18,8 @@ clear
 close all
 
 % Load GCM and design matrix
-load('../data/GCM_Stress_taste.mat');
-load('../M/M_taste_delta_stress.mat'); 
+load('./data/GCM_Stress_taste.mat');
+load('./M/M_taste_delta_stress.mat'); 
 
 X = dm.X;
 K = width(X);
