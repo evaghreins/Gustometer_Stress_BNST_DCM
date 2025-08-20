@@ -1,0 +1,15 @@
+EGH_pspm_100_Stress2.mat: double end timestamp.
+EGH_pspm_101_Stress1.mat: ~160-170s large change trough-to-peak (~1.5/2) but not a sharp change. otherwise fine, hesitant to include/remove. 
+EGH_pspm_101_Stress2.mat: no end timestamp
+EGH_pspm_103_Stress2.mat: large change trough to peak at the start of session (starts midway change). normalises after that. Double end timestamp. 
+EGH_pspm_104_Stress2.mat: no start timesatmp
+EGH_pspm_114_Stress1.mat: large trough to peak change at the start of timestamp
+EGH_pspm_120_Stress1.mat: no end timestamp
+EGH_pspm_120_Stress2.mat: no start or end timestamp..
+EGH_pspm_127_Stress2.mat: mlutiple timestamps, ignore second one at 160s, double end timestamp. 
+EGH_pspm_130_Stress1.mat: possible artefact at 160s?
+EGH_pspm_132_Stress1.mat: starts high and gradually decreases
+EGH_pspm_148_Stress1.mat: artifact just after 100s
+EGH_pspm_152_Stress1.mat: no start or end timestamp...
+EGH_pspm_152_Stress2.mat: no end or start timestamp..
+EGH_pspm_904_Stress1.mat: no start timestamp. end timestamp labelled 106
