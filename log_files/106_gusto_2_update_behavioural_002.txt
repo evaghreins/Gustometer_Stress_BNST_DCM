@@ -1,0 +1,33 @@
+food cue task: behavioural data
+participant: 106
+session: 002
+11/02/2022, 15:06:32
+stress rating: 4
+hunger rating: 5
+trial type: W, M, M, W, M, W, M, W, W, M, M, W 
+onsets 
+visual: 0; taste: 0; rating: 0; rinse: 0
+visual: 5.000291109085083; taste: 16.001527309417725; rating: 25.00507688522339; rinse: 31.005005359649658
+visual: 39.998106718063354; taste: 50.99966764450073; rating: 60.002052545547485; rinse: 66.00568699836731
+visual: 75.00361919403076; taste: 86.00049805641174; rating: 95.00681114196777; rinse: 101.00275731086731
+visual: 110.00217127799988; taste: 121.00039601325989; rating: 130.00637412071228; rinse: 136.0083396434784
+visual: 144.99745321273804; taste: 156.00374841690063; rating: 165.00624012947083; rinse: 171.0062084197998
+visual: 180.00113034248352; taste: 191.00038862228394; rating: 200.00671863555908; rinse: 206.00545263290405
+visual: 215.00036692619324; taste: 225.99775743484497; rating: 235.0009229183197; rinse: 241.00389695167542
+visual: 249.99781584739685; taste: 261.00269985198975; rating: 270.00665044784546; rinse: 276.00360131263733
+visual: 285.0011258125305; taste: 295.99944376945496; rating: 305.00597286224365; rinse: 311.00593519210815
+visual: 319.9998309612274; taste: 331.0041003227234; rating: 340.00491642951965; rinse: 346.0048475265503
+visual: 355.00153040885925; taste: 366.00045371055603; rating: 375.00825715065; rinse: 381.00254368782043
+visual: 390.00240111351013; taste: 400.9982421398163; rating: 410.00518131256104; rinse: 416.0072524547577
+trial: 1; pleasantness rating: 3
+trial: 10; pleasantness rating: 4
+trial: 11; pleasantness rating: 3
+trial: 12; pleasantness rating: 3
+trial: 2; pleasantness rating: 3
+trial: 3; pleasantness rating: 3
+trial: 4; pleasantness rating: 4
+trial: 5; pleasantness rating: 4
+trial: 6; pleasantness rating: 3
+trial: 7; pleasantness rating: 3
+trial: 8; pleasantness rating: 3
+trial: 9; pleasantness rating: 4

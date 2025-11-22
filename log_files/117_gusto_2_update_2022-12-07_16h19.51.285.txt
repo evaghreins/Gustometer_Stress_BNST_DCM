@@ -1,0 +1,1230 @@
+1.1535 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+35.1801 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+35.5715 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023EF4993C10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023EF6877160>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+35.5716 	EXP 	window1: mouseVisible = True
+35.5716 	EXP 	window1: mouseVisible = False
+35.5716 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+35.5716 	EXP 	window1: recordFrameIntervals = False
+35.6000 	EXP 	window1: recordFrameIntervals = True
+35.6117 	WARNING 	t of last frame was 5.19ms (=1/192)
+35.6288 	WARNING 	t of last frame was 5.26ms (=1/190)
+35.6385 	EXP 	Screen (0) actual frame rate measured at 375.26Hz
+35.6385 	EXP 	window1: recordFrameIntervals = False
+37.3151 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for participant...', units='height', win=Window(...), wrapWidth=1)
+37.3175 	EXP 	Created ploygon_red = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'bottom'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='ploygon_red', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.005, 0.5  ]), units='height', vertices=ndarray(...), win=Window(...))
+37.3190 	EXP 	Created polygon_white = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'bottom'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.0, name='polygon_white', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.005, 0.5  ]), units='height', vertices=ndarray(...), win=Window(...))
+37.3361 	EXP 	Created get_ready_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='get_ready_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.3491 	EXP 	Created taste_text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_6', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How stressed do you feel?', units='height', win=Window(...), wrapWidth=1)
+37.3568 	EXP 	window1: mouseVisible = True
+37.4626 	EXP 	Created slider_stress = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider_stress', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+37.4690 	EXP 	Created taste_text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_5', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How hungry do you feel?', units='height', win=Window(...), wrapWidth=1)
+37.4740 	EXP 	window1: mouseVisible = True
+37.5512 	EXP 	Created slider_hunger = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider_hunger', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+37.5598 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for scanner...', units='height', win=Window(...), wrapWidth=1)
+37.5613 	EXP 	Created cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.5628 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.5717 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.5906 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+37.5958 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.5976 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.6111 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+37.6162 	EXP 	window1: mouseVisible = True
+37.6875 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+37.6945 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.6959 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.6986 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.7003 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.7028 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.7240 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+37.7269 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.7285 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.7327 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+37.7377 	EXP 	window1: mouseVisible = True
+37.7998 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+37.8029 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.8046 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.8076 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.8092 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.8120 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.8319 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+37.8349 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.8366 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.8407 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+37.8462 	EXP 	window1: mouseVisible = True
+37.9078 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+37.9118 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.9136 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.9164 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+37.9179 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.9205 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.9429 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+37.9463 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+37.9479 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+37.9521 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+37.9571 	EXP 	window1: mouseVisible = True
+38.0159 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.0191 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.0206 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.0232 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.0247 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.0270 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.0467 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.0497 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.0513 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.0554 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.0603 	EXP 	window1: mouseVisible = True
+38.1200 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.1232 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.1248 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.1276 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.1293 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.1321 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.1491 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.1519 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.1536 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.1578 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.1636 	EXP 	window1: mouseVisible = True
+38.2224 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.2256 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.2273 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.2301 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.2318 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.2345 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.2543 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.2576 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.2594 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.2647 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.2697 	EXP 	window1: mouseVisible = True
+38.3302 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.3335 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.3351 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.3381 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.3397 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.3422 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.3589 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.3618 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.3633 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.3670 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.3718 	EXP 	window1: mouseVisible = True
+38.4320 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.4353 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.4370 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.4401 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.4418 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.4447 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.4609 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.4637 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.4654 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.4689 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.4738 	EXP 	window1: mouseVisible = True
+38.5327 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.5358 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.5376 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.5406 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.5423 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.5448 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.5626 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.5657 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.5674 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.5718 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.5768 	EXP 	window1: mouseVisible = True
+38.6354 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.6386 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.6402 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.6431 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.6447 	EXP 	Created fix_cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.6475 	EXP 	Created taste_text_milkshake_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_milkshake_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.6675 	EXP 	Created mshake = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/chocolate_milk.jpeg', interpolate=True, mask=None, maskParams=None, name='mshake', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.6701 	EXP 	Created taste_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.6716 	EXP 	Created fix_cross_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.6750 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.6798 	EXP 	window1: mouseVisible = True
+38.7388 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.7422 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.7438 	EXP 	Created cross_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.7468 	EXP 	Created rinse_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.7483 	EXP 	Created fix_cross_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.7510 	EXP 	Created taste_text_water_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_water_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.7678 	EXP 	Created waterg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stim/glass_of_water.jpeg', interpolate=True, mask=None, maskParams=None, name='waterg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.8]), texRes=128.0, units='height', win=Window(...))
+38.7707 	EXP 	Created taste_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='taste_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='TASTE', units='height', win=Window(...), wrapWidth=1)
+38.7724 	EXP 	Created fix_cross_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='fix_cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.7760 	EXP 	Created taste_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='taste_text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How pleasant does it taste?', units='height', win=Window(...), wrapWidth=1)
+38.7808 	EXP 	window1: mouseVisible = True
+38.8392 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=3, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+38.8424 	EXP 	Created rinse_txt_short = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_txt_short', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.8454 	EXP 	Created rinse_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='rinse_text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='RINSE', units='height', win=Window(...), wrapWidth=1)
+38.8547 	EXP 	Created thank_you_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thank_you_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating.', units='height', win=Window(...), wrapWidth=1)
+38.8676 	EXP 	slider_stress: autoLog = True
+38.8676 	EXP 	slider_stress: markerPos = 3
+38.8676 	EXP 	slider_stress: styleTweaks = []
+38.8676 	EXP 	slider_stress: styleTweaks = []
+38.8676 	EXP 	slider_stress: styleTweaks = []
+38.8676 	EXP 	slider_stress: styleTweaks = []
+38.8676 	EXP 	slider_stress: contrast = 1.0
+38.8676 	EXP 	slider_stress: autoLog = True
+38.8676 	EXP 	slider_hunger: autoLog = True
+38.8676 	EXP 	slider_hunger: markerPos = 3
+38.8676 	EXP 	slider_hunger: styleTweaks = []
+38.8676 	EXP 	slider_hunger: styleTweaks = []
+38.8676 	EXP 	slider_hunger: styleTweaks = []
+38.8676 	EXP 	slider_hunger: styleTweaks = []
+38.8676 	EXP 	slider_hunger: contrast = 1.0
+38.8676 	EXP 	slider_hunger: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	slider: markerPos = 3
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: styleTweaks = []
+38.8676 	EXP 	slider: contrast = 1.0
+38.8676 	EXP 	slider: autoLog = True
+38.8676 	EXP 	text_2: autoDraw = True
+102.6201 	DATA 	Keypress: k
+102.6292 	EXP 	text_2: autoDraw = False
+102.6292 	EXP 	ploygon_red: autoDraw = True
+162.6249 	EXP 	polygon_white: autoDraw = True
+162.6335 	EXP 	ploygon_red: autoDraw = False
+222.6278 	EXP 	polygon_white: autoDraw = False
+222.6278 	EXP 	ploygon_red: autoDraw = False
+222.6278 	EXP 	polygon_white: autoDraw = False
+222.6278 	EXP 	get_ready_text: autoDraw = True
+228.6516 	EXP 	get_ready_text: autoDraw = False
+228.6516 	EXP 	get_ready_text: autoDraw = False
+228.6516 	EXP 	slider_stress: markerPos = None
+228.6516 	EXP 	slider_stress: markerPos = 3
+228.6516 	EXP 	slider_stress: markerPos = 4
+228.6516 	EXP 	taste_text_6: autoDraw = True
+228.6516 	EXP 	slider_stress: autoDraw = True
+230.1145 	DATA 	Keypress: b
+230.1353 	EXP 	slider_stress: markerPos = 5
+231.6707 	DATA 	Keypress: b
+231.7019 	EXP 	slider_stress: markerPos = 6
+236.6561 	EXP 	taste_text_6: autoDraw = False
+236.6561 	EXP 	slider_stress: autoDraw = False
+236.6561 	EXP 	slider_hunger: markerPos = None
+236.6561 	EXP 	slider_hunger: markerPos = 3
+236.6561 	EXP 	slider_hunger: markerPos = 4
+236.6561 	EXP 	taste_text_5: autoDraw = True
+236.6561 	EXP 	slider_hunger: autoDraw = True
+237.7710 	DATA 	Keypress: a
+237.7938 	EXP 	slider_hunger: markerPos = 3
+238.0877 	DATA 	Keypress: a
+238.1097 	EXP 	slider_hunger: markerPos = 2
+244.6405 	EXP 	taste_text_5: autoDraw = False
+244.6405 	EXP 	slider_hunger: autoDraw = False
+244.6405 	EXP 	text: autoDraw = True
+344.1117 	DATA 	Keypress: lshift
+344.1118 	DATA 	Keypress: t
+344.1215 	EXP 	text: autoDraw = False
+344.1215 	EXP 	cross: autoDraw = True
+345.7102 	DATA 	Keypress: lshift
+345.7103 	DATA 	Keypress: t
+347.3116 	DATA 	Keypress: lshift
+347.3117 	DATA 	Keypress: t
+348.9098 	DATA 	Keypress: lshift
+348.9168 	DATA 	Keypress: t
+349.1240 	EXP 	cross: autoDraw = False
+349.1240 	EXP 	waterg: autoDraw = True
+350.5099 	DATA 	Keypress: lshift
+350.5147 	DATA 	Keypress: t
+352.1132 	DATA 	Keypress: lshift
+352.1133 	DATA 	Keypress: t
+353.7129 	DATA 	Keypress: lshift
+353.7130 	DATA 	Keypress: t
+354.1228 	EXP 	fix_cross_4: autoDraw = True
+354.1258 	EXP 	waterg: autoDraw = False
+355.3126 	DATA 	Keypress: lshift
+355.3127 	DATA 	Keypress: t
+356.9097 	DATA 	Keypress: lshift
+356.9147 	DATA 	Keypress: t
+358.5094 	DATA 	Keypress: lshift
+358.5139 	DATA 	Keypress: t
+359.1188 	EXP 	taste_text_water_short: autoDraw = True
+359.1252 	EXP 	fix_cross_4: autoDraw = False
+360.1155 	DATA 	Keypress: lshift
+360.1157 	DATA 	Keypress: t
+360.1224 	EXP 	fix_cross_4: autoDraw = False
+360.1224 	EXP 	taste_text_water_short: autoDraw = False
+360.1224 	EXP 	waterg: autoDraw = False
+360.1224 	EXP 	taste_text_4: autoDraw = True
+361.7151 	DATA 	Keypress: lshift
+361.7153 	DATA 	Keypress: t
+363.3089 	DATA 	Keypress: lshift
+363.3156 	DATA 	Keypress: t
+364.1211 	EXP 	fix_cross_2: autoDraw = True
+364.1236 	EXP 	taste_text_4: autoDraw = False
+364.9152 	DATA 	Keypress: lshift
+364.9154 	DATA 	Keypress: t
+366.5143 	DATA 	Keypress: lshift
+366.5145 	DATA 	Keypress: t
+368.1117 	DATA 	Keypress: lshift
+368.1118 	DATA 	Keypress: t
+369.1487 	EXP 	taste_text_4: autoDraw = False
+369.1487 	EXP 	fix_cross_2: autoDraw = False
+369.1487 	EXP 	slider: markerPos = None
+369.1487 	EXP 	slider: markerPos = 3
+369.1487 	EXP 	slider: markerPos = 4
+369.1487 	EXP 	taste_text_2: autoDraw = True
+369.1487 	EXP 	slider: autoDraw = True
+369.7162 	DATA 	Keypress: lshift
+369.7163 	DATA 	Keypress: t
+369.9382 	DATA 	Keypress: a
+369.9553 	EXP 	slider: markerPos = 3
+371.3153 	DATA 	Keypress: lshift
+371.3154 	DATA 	Keypress: t
+372.9179 	DATA 	Keypress: lshift
+372.9180 	DATA 	Keypress: t
+374.1380 	EXP 	rinse_txt_short: autoDraw = True
+374.1637 	EXP 	taste_text_2: autoDraw = False
+374.1637 	EXP 	slider: autoDraw = False
+374.5118 	DATA 	Keypress: lshift
+374.5119 	DATA 	Keypress: t
+375.1296 	EXP 	taste_text_2: autoDraw = False
+375.1296 	EXP 	slider: autoDraw = False
+375.1296 	EXP 	rinse_txt_short: autoDraw = False
+375.1296 	EXP 	rinse_text: autoDraw = True
+376.1118 	DATA 	Keypress: lshift
+376.1119 	DATA 	Keypress: t
+377.7153 	DATA 	Keypress: lshift
+377.7154 	DATA 	Keypress: t
+379.1217 	EXP 	cross_3: autoDraw = True
+379.1317 	EXP 	rinse_text: autoDraw = False
+379.3137 	DATA 	Keypress: lshift
+379.3139 	DATA 	Keypress: t
+380.9149 	DATA 	Keypress: lshift
+380.9152 	DATA 	Keypress: t
+382.5144 	DATA 	Keypress: lshift
+382.5145 	DATA 	Keypress: t
+384.1129 	DATA 	Keypress: lshift
+384.1130 	DATA 	Keypress: t
+384.1237 	EXP 	cross_3: autoDraw = False
+384.1237 	EXP 	rinse_text: autoDraw = False
+384.1237 	EXP 	mshake: autoDraw = True
+385.7099 	DATA 	Keypress: lshift
+385.7100 	DATA 	Keypress: t
+387.3098 	DATA 	Keypress: lshift
+387.3135 	DATA 	Keypress: t
+388.9100 	DATA 	Keypress: lshift
+388.9141 	DATA 	Keypress: t
+389.1237 	EXP 	fix_cross_3: autoDraw = True
+389.1276 	EXP 	mshake: autoDraw = False
+390.5107 	DATA 	Keypress: lshift
+390.5133 	DATA 	Keypress: t
+392.1117 	DATA 	Keypress: lshift
+392.1118 	DATA 	Keypress: t
+393.7088 	DATA 	Keypress: lshift
+393.7116 	DATA 	Keypress: t
+394.1224 	EXP 	taste_text_milkshake_short: autoDraw = True
+394.1271 	EXP 	fix_cross_3: autoDraw = False
+395.1214 	EXP 	fix_cross_3: autoDraw = False
+395.1214 	EXP 	taste_text_milkshake_short: autoDraw = False
+395.1214 	EXP 	mshake: autoDraw = False
+395.1214 	EXP 	taste_text_3: autoDraw = True
+395.3121 	DATA 	Keypress: lshift
+395.3122 	DATA 	Keypress: t
+396.9130 	DATA 	Keypress: lshift
+396.9133 	DATA 	Keypress: t
+398.5155 	DATA 	Keypress: lshift
+398.5156 	DATA 	Keypress: t
+399.1208 	EXP 	fix_cross_1: autoDraw = True
+399.1265 	EXP 	taste_text_3: autoDraw = False
+400.1123 	DATA 	Keypress: lshift
+400.1125 	DATA 	Keypress: t
+401.7122 	DATA 	Keypress: lshift
+401.7123 	DATA 	Keypress: t
+403.3122 	DATA 	Keypress: lshift
+403.3124 	DATA 	Keypress: t
+404.1415 	EXP 	taste_text_3: autoDraw = False
+404.1415 	EXP 	fix_cross_1: autoDraw = False
+404.1415 	EXP 	slider: markerPos = None
+404.1415 	EXP 	slider: markerPos = 3
+404.1415 	EXP 	slider: markerPos = 4
+404.1415 	EXP 	taste_text_2: autoDraw = True
+404.1415 	EXP 	slider: autoDraw = True
+404.6919 	DATA 	Keypress: b
+404.7086 	EXP 	slider: markerPos = 5
+404.9130 	DATA 	Keypress: lshift
+404.9133 	DATA 	Keypress: t
+405.1640 	DATA 	Keypress: b
+405.1854 	EXP 	slider: markerPos = 6
+406.5139 	DATA 	Keypress: lshift
+406.5140 	DATA 	Keypress: t
+408.1133 	DATA 	Keypress: lshift
+408.1134 	DATA 	Keypress: t
+409.1352 	EXP 	rinse_txt_short: autoDraw = True
+409.1601 	EXP 	taste_text_2: autoDraw = False
+409.1601 	EXP 	slider: autoDraw = False
+409.7107 	DATA 	Keypress: lshift
+409.7124 	DATA 	Keypress: t
+410.1253 	EXP 	taste_text_2: autoDraw = False
+410.1253 	EXP 	slider: autoDraw = False
+410.1253 	EXP 	rinse_txt_short: autoDraw = False
+410.1253 	EXP 	rinse_text: autoDraw = True
+411.3127 	DATA 	Keypress: lshift
+411.3128 	DATA 	Keypress: t
+412.9124 	DATA 	Keypress: lshift
+412.9125 	DATA 	Keypress: t
+414.1202 	EXP 	cross_3: autoDraw = True
+414.1293 	EXP 	rinse_text: autoDraw = False
+414.5130 	DATA 	Keypress: lshift
+414.5134 	DATA 	Keypress: t
+416.1135 	DATA 	Keypress: lshift
+416.1139 	DATA 	Keypress: t
+417.7142 	DATA 	Keypress: lshift
+417.7144 	DATA 	Keypress: t
+419.1208 	EXP 	cross_3: autoDraw = False
+419.1208 	EXP 	rinse_text: autoDraw = False
+419.1208 	EXP 	mshake: autoDraw = True
+419.3153 	DATA 	Keypress: lshift
+419.3154 	DATA 	Keypress: t
+420.9166 	DATA 	Keypress: lshift
+420.9167 	DATA 	Keypress: t
+422.5171 	DATA 	Keypress: lshift
+422.5173 	DATA 	Keypress: t
+424.1178 	DATA 	Keypress: lshift
+424.1179 	DATA 	Keypress: t
+424.1215 	EXP 	fix_cross_3: autoDraw = True
+424.1248 	EXP 	mshake: autoDraw = False
+425.7107 	DATA 	Keypress: lshift
+425.7108 	DATA 	Keypress: t
+427.3112 	DATA 	Keypress: lshift
+427.3113 	DATA 	Keypress: t
+428.9115 	DATA 	Keypress: lshift
+428.9120 	DATA 	Keypress: t
+429.1190 	EXP 	taste_text_milkshake_short: autoDraw = True
+429.1237 	EXP 	fix_cross_3: autoDraw = False
+430.1198 	EXP 	taste_text_milkshake_short: autoDraw = False
+430.1198 	EXP 	fix_cross_3: autoDraw = False
+430.1198 	EXP 	taste_text_milkshake_short: autoDraw = False
+430.1198 	EXP 	mshake: autoDraw = False
+430.1198 	EXP 	taste_text_3: autoDraw = True
+430.5107 	DATA 	Keypress: lshift
+430.5138 	DATA 	Keypress: t
+432.1140 	DATA 	Keypress: lshift
+432.1141 	DATA 	Keypress: t
+433.7132 	DATA 	Keypress: lshift
+433.7136 	DATA 	Keypress: t
+434.1171 	EXP 	fix_cross_1: autoDraw = True
+434.1195 	EXP 	taste_text_3: autoDraw = False
+435.3142 	DATA 	Keypress: lshift
+435.3144 	DATA 	Keypress: t
+436.9148 	DATA 	Keypress: lshift
+436.9149 	DATA 	Keypress: t
+438.5131 	DATA 	Keypress: lshift
+438.5133 	DATA 	Keypress: t
+439.1378 	EXP 	fix_cross_1: autoDraw = False
+439.1378 	EXP 	taste_text_3: autoDraw = False
+439.1378 	EXP 	fix_cross_1: autoDraw = False
+439.1378 	EXP 	slider: markerPos = None
+439.1378 	EXP 	slider: markerPos = 3
+439.1378 	EXP 	slider: markerPos = 4
+439.1378 	EXP 	taste_text_2: autoDraw = True
+439.1378 	EXP 	slider: autoDraw = True
+439.5462 	DATA 	Keypress: b
+439.5641 	EXP 	slider: markerPos = 5
+439.9542 	DATA 	Keypress: b
+439.9692 	EXP 	slider: markerPos = 6
+440.1150 	DATA 	Keypress: lshift
+440.1151 	DATA 	Keypress: t
+441.7147 	DATA 	Keypress: lshift
+441.7148 	DATA 	Keypress: t
+443.3154 	DATA 	Keypress: lshift
+443.3155 	DATA 	Keypress: t
+444.1313 	EXP 	rinse_txt_short: autoDraw = True
+444.1550 	EXP 	taste_text_2: autoDraw = False
+444.1550 	EXP 	slider: autoDraw = False
+444.9113 	DATA 	Keypress: lshift
+444.9114 	DATA 	Keypress: t
+445.1256 	EXP 	taste_text_2: autoDraw = False
+445.1256 	EXP 	slider: autoDraw = False
+445.1256 	EXP 	rinse_txt_short: autoDraw = False
+445.1256 	EXP 	rinse_text: autoDraw = True
+446.5171 	DATA 	Keypress: lshift
+446.5172 	DATA 	Keypress: t
+448.1100 	DATA 	Keypress: lshift
+448.1167 	DATA 	Keypress: t
+449.1173 	EXP 	cross_3: autoDraw = True
+449.1267 	EXP 	rinse_text: autoDraw = False
+449.7122 	DATA 	Keypress: lshift
+449.7123 	DATA 	Keypress: t
+451.3120 	DATA 	Keypress: lshift
+451.3121 	DATA 	Keypress: t
+452.9136 	DATA 	Keypress: lshift
+452.9137 	DATA 	Keypress: t
+454.1227 	EXP 	cross_3: autoDraw = False
+454.1227 	EXP 	cross_3: autoDraw = False
+454.1227 	EXP 	rinse_text: autoDraw = False
+454.1227 	EXP 	waterg: autoDraw = True
+454.5154 	DATA 	Keypress: lshift
+454.5155 	DATA 	Keypress: t
+456.1115 	DATA 	Keypress: lshift
+456.1116 	DATA 	Keypress: t
+457.7149 	DATA 	Keypress: lshift
+457.7151 	DATA 	Keypress: t
+459.1201 	EXP 	fix_cross_4: autoDraw = True
+459.1228 	EXP 	waterg: autoDraw = False
+459.3153 	DATA 	Keypress: lshift
+459.3154 	DATA 	Keypress: t
+460.9161 	DATA 	Keypress: lshift
+460.9162 	DATA 	Keypress: t
+462.5142 	DATA 	Keypress: lshift
+462.5143 	DATA 	Keypress: t
+464.1149 	DATA 	Keypress: lshift
+464.1151 	DATA 	Keypress: t
+464.1225 	EXP 	fix_cross_4: autoDraw = False
+464.1225 	EXP 	taste_text_water_short: autoDraw = True
+465.1230 	EXP 	fix_cross_4: autoDraw = False
+465.1230 	EXP 	taste_text_water_short: autoDraw = False
+465.1230 	EXP 	waterg: autoDraw = False
+465.1230 	EXP 	taste_text_4: autoDraw = True
+465.7146 	DATA 	Keypress: lshift
+465.7147 	DATA 	Keypress: t
+467.3125 	DATA 	Keypress: lshift
+467.3126 	DATA 	Keypress: t
+468.9120 	DATA 	Keypress: lshift
+468.9121 	DATA 	Keypress: t
+469.1209 	EXP 	fix_cross_2: autoDraw = True
+469.1239 	EXP 	taste_text_4: autoDraw = False
+470.5130 	DATA 	Keypress: lshift
+470.5131 	DATA 	Keypress: t
+472.1132 	DATA 	Keypress: lshift
+472.1133 	DATA 	Keypress: t
+473.7104 	DATA 	Keypress: lshift
+473.7130 	DATA 	Keypress: t
+474.1415 	EXP 	taste_text_4: autoDraw = False
+474.1415 	EXP 	fix_cross_2: autoDraw = False
+474.1415 	EXP 	slider: markerPos = None
+474.1415 	EXP 	slider: markerPos = 3
+474.1415 	EXP 	slider: markerPos = 4
+474.1415 	EXP 	taste_text_2: autoDraw = True
+474.1415 	EXP 	slider: autoDraw = True
+474.9208 	DATA 	Keypress: a
+474.9372 	EXP 	slider: markerPos = 3
+475.3108 	DATA 	Keypress: lshift
+475.3120 	DATA 	Keypress: t
+476.9118 	DATA 	Keypress: lshift
+476.9120 	DATA 	Keypress: t
+478.5173 	DATA 	Keypress: lshift
+478.5174 	DATA 	Keypress: t
+479.1453 	EXP 	rinse_txt_short: autoDraw = True
+479.1521 	EXP 	taste_text_2: autoDraw = False
+479.1521 	EXP 	slider: autoDraw = False
+480.1115 	DATA 	Keypress: lshift
+480.1116 	DATA 	Keypress: t
+480.1284 	EXP 	taste_text_2: autoDraw = False
+480.1284 	EXP 	slider: autoDraw = False
+480.1284 	EXP 	rinse_txt_short: autoDraw = False
+480.1284 	EXP 	rinse_text: autoDraw = True
+481.7127 	DATA 	Keypress: lshift
+481.7128 	DATA 	Keypress: t
+483.3130 	DATA 	Keypress: lshift
+483.3132 	DATA 	Keypress: t
+484.1193 	EXP 	cross_3: autoDraw = True
+484.1310 	EXP 	rinse_text: autoDraw = False
+484.9122 	DATA 	Keypress: lshift
+484.9123 	DATA 	Keypress: t
+486.5132 	DATA 	Keypress: lshift
+486.5133 	DATA 	Keypress: t
+488.1133 	DATA 	Keypress: lshift
+488.1134 	DATA 	Keypress: t
+489.1220 	EXP 	cross_3: autoDraw = False
+489.1220 	EXP 	rinse_text: autoDraw = False
+489.1220 	EXP 	mshake: autoDraw = True
+489.7124 	DATA 	Keypress: lshift
+489.7126 	DATA 	Keypress: t
+491.3122 	DATA 	Keypress: lshift
+491.3122 	DATA 	Keypress: t
+492.9136 	DATA 	Keypress: lshift
+492.9138 	DATA 	Keypress: t
+494.1215 	EXP 	fix_cross_3: autoDraw = True
+494.1215 	EXP 	mshake: autoDraw = False
+494.5133 	DATA 	Keypress: lshift
+494.5142 	DATA 	Keypress: t
+496.1113 	DATA 	Keypress: lshift
+496.1115 	DATA 	Keypress: t
+497.7116 	DATA 	Keypress: lshift
+497.7118 	DATA 	Keypress: t
+499.1185 	EXP 	taste_text_milkshake_short: autoDraw = True
+499.1211 	EXP 	fix_cross_3: autoDraw = False
+499.3165 	DATA 	Keypress: lshift
+499.3166 	DATA 	Keypress: t
+500.1201 	EXP 	fix_cross_3: autoDraw = False
+500.1201 	EXP 	taste_text_milkshake_short: autoDraw = False
+500.1201 	EXP 	mshake: autoDraw = False
+500.1201 	EXP 	taste_text_3: autoDraw = True
+500.9123 	DATA 	Keypress: lshift
+500.9125 	DATA 	Keypress: t
+502.5111 	DATA 	Keypress: lshift
+502.5159 	DATA 	Keypress: t
+504.1121 	DATA 	Keypress: lshift
+504.1123 	DATA 	Keypress: t
+504.1206 	EXP 	taste_text_3: autoDraw = False
+504.1206 	EXP 	fix_cross_1: autoDraw = True
+505.7117 	DATA 	Keypress: lshift
+505.7118 	DATA 	Keypress: t
+507.3129 	DATA 	Keypress: lshift
+507.3130 	DATA 	Keypress: t
+508.9115 	DATA 	Keypress: lshift
+508.9118 	DATA 	Keypress: t
+509.1414 	EXP 	taste_text_3: autoDraw = False
+509.1414 	EXP 	fix_cross_1: autoDraw = False
+509.1414 	EXP 	slider: markerPos = None
+509.1414 	EXP 	slider: markerPos = 3
+509.1414 	EXP 	slider: markerPos = 4
+509.1414 	EXP 	taste_text_2: autoDraw = True
+509.1414 	EXP 	slider: autoDraw = True
+509.8279 	DATA 	Keypress: b
+509.8506 	EXP 	slider: markerPos = 5
+510.3004 	DATA 	Keypress: b
+510.3172 	EXP 	slider: markerPos = 6
+510.5130 	DATA 	Keypress: lshift
+510.5131 	DATA 	Keypress: t
+512.1195 	DATA 	Keypress: lshift
+512.1196 	DATA 	Keypress: t
+513.7109 	DATA 	Keypress: lshift
+513.7215 	DATA 	Keypress: t
+514.1413 	EXP 	rinse_txt_short: autoDraw = True
+514.1485 	EXP 	taste_text_2: autoDraw = False
+514.1485 	EXP 	slider: autoDraw = False
+515.1253 	EXP 	taste_text_2: autoDraw = False
+515.1253 	EXP 	slider: autoDraw = False
+515.1253 	EXP 	rinse_txt_short: autoDraw = False
+515.1253 	EXP 	rinse_text: autoDraw = True
+515.3150 	DATA 	Keypress: lshift
+515.3151 	DATA 	Keypress: t
+516.9114 	DATA 	Keypress: lshift
+516.9129 	DATA 	Keypress: t
+518.5148 	DATA 	Keypress: lshift
+518.5148 	DATA 	Keypress: t
+519.1194 	EXP 	cross_3: autoDraw = True
+519.1284 	EXP 	rinse_text: autoDraw = False
+520.1140 	DATA 	Keypress: lshift
+520.1141 	DATA 	Keypress: t
+521.7110 	DATA 	Keypress: lshift
+521.7111 	DATA 	Keypress: t
+523.3109 	DATA 	Keypress: lshift
+523.3175 	DATA 	Keypress: t
+524.1246 	EXP 	cross_3: autoDraw = False
+524.1246 	EXP 	rinse_text: autoDraw = False
+524.1246 	EXP 	waterg: autoDraw = True
+524.9167 	DATA 	Keypress: lshift
+524.9168 	DATA 	Keypress: t
+526.5159 	DATA 	Keypress: lshift
+526.5160 	DATA 	Keypress: t
+528.1158 	DATA 	Keypress: lshift
+528.1160 	DATA 	Keypress: t
+529.1188 	EXP 	fix_cross_4: autoDraw = True
+529.1268 	EXP 	waterg: autoDraw = False
+529.7159 	DATA 	Keypress: lshift
+529.7160 	DATA 	Keypress: t
+531.3128 	DATA 	Keypress: lshift
+531.3157 	DATA 	Keypress: t
+532.9147 	DATA 	Keypress: lshift
+532.9148 	DATA 	Keypress: t
+534.1169 	EXP 	taste_text_water_short: autoDraw = True
+534.1227 	EXP 	fix_cross_4: autoDraw = False
+534.5123 	DATA 	Keypress: lshift
+534.5124 	DATA 	Keypress: t
+535.1175 	EXP 	taste_text_water_short: autoDraw = False
+535.1175 	EXP 	fix_cross_4: autoDraw = False
+535.1175 	EXP 	taste_text_water_short: autoDraw = False
+535.1175 	EXP 	waterg: autoDraw = False
+535.1175 	EXP 	taste_text_4: autoDraw = True
+536.1118 	DATA 	Keypress: lshift
+536.1120 	DATA 	Keypress: t
+537.7139 	DATA 	Keypress: lshift
+537.7141 	DATA 	Keypress: t
+539.1173 	EXP 	fix_cross_2: autoDraw = True
+539.1218 	EXP 	taste_text_4: autoDraw = False
+539.3152 	DATA 	Keypress: lshift
+539.3154 	DATA 	Keypress: t
+540.9165 	DATA 	Keypress: lshift
+540.9166 	DATA 	Keypress: t
+542.5147 	DATA 	Keypress: lshift
+542.5149 	DATA 	Keypress: t
+544.1212 	DATA 	Keypress: lshift
+544.1213 	DATA 	Keypress: t
+544.1384 	EXP 	fix_cross_2: autoDraw = False
+544.1384 	EXP 	taste_text_4: autoDraw = False
+544.1384 	EXP 	fix_cross_2: autoDraw = False
+544.1384 	EXP 	slider: markerPos = None
+544.1384 	EXP 	slider: markerPos = 3
+544.1384 	EXP 	slider: markerPos = 4
+544.1384 	EXP 	taste_text_2: autoDraw = True
+544.1384 	EXP 	slider: autoDraw = True
+544.7433 	DATA 	Keypress: a
+544.7640 	EXP 	slider: markerPos = 3
+545.7137 	DATA 	Keypress: lshift
+545.7138 	DATA 	Keypress: t
+547.3133 	DATA 	Keypress: lshift
+547.3135 	DATA 	Keypress: t
+548.9175 	DATA 	Keypress: lshift
+548.9178 	DATA 	Keypress: t
+549.1376 	EXP 	rinse_txt_short: autoDraw = True
+549.1443 	EXP 	taste_text_2: autoDraw = False
+549.1443 	EXP 	slider: autoDraw = False
+550.1293 	EXP 	taste_text_2: autoDraw = False
+550.1293 	EXP 	slider: autoDraw = False
+550.1293 	EXP 	rinse_txt_short: autoDraw = False
+550.1293 	EXP 	rinse_text: autoDraw = True
+550.5114 	DATA 	Keypress: lshift
+550.5145 	DATA 	Keypress: t
+552.1137 	DATA 	Keypress: lshift
+552.1138 	DATA 	Keypress: t
+553.7111 	DATA 	Keypress: lshift
+553.7111 	DATA 	Keypress: t
+554.1214 	EXP 	cross_3: autoDraw = True
+554.1291 	EXP 	rinse_text: autoDraw = False
+555.3131 	DATA 	Keypress: lshift
+555.3132 	DATA 	Keypress: t
+556.9138 	DATA 	Keypress: lshift
+556.9140 	DATA 	Keypress: t
+558.5140 	DATA 	Keypress: lshift
+558.5141 	DATA 	Keypress: t
+559.1220 	EXP 	cross_3: autoDraw = False
+559.1220 	EXP 	rinse_text: autoDraw = False
+559.1220 	EXP 	mshake: autoDraw = True
+560.1128 	DATA 	Keypress: lshift
+560.1129 	DATA 	Keypress: t
+561.7126 	DATA 	Keypress: lshift
+561.7127 	DATA 	Keypress: t
+563.3132 	DATA 	Keypress: lshift
+563.3135 	DATA 	Keypress: t
+564.1211 	EXP 	fix_cross_3: autoDraw = True
+564.1238 	EXP 	mshake: autoDraw = False
+564.9141 	DATA 	Keypress: lshift
+564.9145 	DATA 	Keypress: t
+566.5130 	DATA 	Keypress: lshift
+566.5131 	DATA 	Keypress: t
+568.1129 	DATA 	Keypress: lshift
+568.1130 	DATA 	Keypress: t
+569.1200 	EXP 	taste_text_milkshake_short: autoDraw = True
+569.1236 	EXP 	fix_cross_3: autoDraw = False
+569.7126 	DATA 	Keypress: lshift
+569.7127 	DATA 	Keypress: t
+570.1229 	EXP 	fix_cross_3: autoDraw = False
+570.1229 	EXP 	taste_text_milkshake_short: autoDraw = False
+570.1229 	EXP 	mshake: autoDraw = False
+570.1229 	EXP 	taste_text_3: autoDraw = True
+571.3154 	DATA 	Keypress: lshift
+571.3155 	DATA 	Keypress: t
+572.9133 	DATA 	Keypress: lshift
+572.9134 	DATA 	Keypress: t
+574.1197 	EXP 	fix_cross_1: autoDraw = True
+574.1237 	EXP 	taste_text_3: autoDraw = False
+574.5138 	DATA 	Keypress: lshift
+574.5138 	DATA 	Keypress: t
+576.1133 	DATA 	Keypress: lshift
+576.1134 	DATA 	Keypress: t
+577.7125 	DATA 	Keypress: lshift
+577.7126 	DATA 	Keypress: t
+579.1388 	EXP 	taste_text_3: autoDraw = False
+579.1388 	EXP 	fix_cross_1: autoDraw = False
+579.1388 	EXP 	slider: markerPos = None
+579.1388 	EXP 	slider: markerPos = 3
+579.1388 	EXP 	slider: markerPos = 4
+579.1388 	EXP 	taste_text_2: autoDraw = True
+579.1388 	EXP 	slider: autoDraw = True
+579.3122 	DATA 	Keypress: lshift
+579.3124 	DATA 	Keypress: t
+579.5371 	DATA 	Keypress: b
+579.5540 	EXP 	slider: markerPos = 5
+579.9761 	DATA 	Keypress: b
+579.9941 	EXP 	slider: markerPos = 6
+580.9239 	DATA 	Keypress: lshift
+580.9240 	DATA 	Keypress: t
+582.5128 	DATA 	Keypress: lshift
+582.5129 	DATA 	Keypress: t
+584.1142 	DATA 	Keypress: lshift
+584.1143 	DATA 	Keypress: t
+584.1358 	EXP 	rinse_txt_short: autoDraw = True
+584.1436 	EXP 	taste_text_2: autoDraw = False
+584.1436 	EXP 	slider: autoDraw = False
+585.1266 	EXP 	taste_text_2: autoDraw = False
+585.1266 	EXP 	slider: autoDraw = False
+585.1266 	EXP 	rinse_txt_short: autoDraw = False
+585.1266 	EXP 	rinse_text: autoDraw = True
+585.7115 	DATA 	Keypress: lshift
+585.7147 	DATA 	Keypress: t
+587.3138 	DATA 	Keypress: lshift
+587.3139 	DATA 	Keypress: t
+588.9116 	DATA 	Keypress: lshift
+588.9193 	DATA 	Keypress: t
+589.1229 	EXP 	cross_3: autoDraw = True
+589.1294 	EXP 	rinse_text: autoDraw = False
+590.5124 	DATA 	Keypress: lshift
+590.5125 	DATA 	Keypress: t
+592.1129 	DATA 	Keypress: lshift
+592.1131 	DATA 	Keypress: t
+593.7154 	DATA 	Keypress: lshift
+593.7157 	DATA 	Keypress: t
+594.1266 	EXP 	cross_3: autoDraw = False
+594.1266 	EXP 	rinse_text: autoDraw = False
+594.1266 	EXP 	waterg: autoDraw = True
+595.3152 	DATA 	Keypress: lshift
+595.3154 	DATA 	Keypress: t
+596.9167 	DATA 	Keypress: lshift
+596.9168 	DATA 	Keypress: t
+598.5150 	DATA 	Keypress: lshift
+598.5150 	DATA 	Keypress: t
+599.1249 	EXP 	fix_cross_4: autoDraw = True
+599.1282 	EXP 	waterg: autoDraw = False
+600.1136 	DATA 	Keypress: lshift
+600.1137 	DATA 	Keypress: t
+601.7148 	DATA 	Keypress: lshift
+601.7149 	DATA 	Keypress: t
+603.3175 	DATA 	Keypress: lshift
+603.3177 	DATA 	Keypress: t
+604.1201 	EXP 	taste_text_water_short: autoDraw = True
+604.1278 	EXP 	fix_cross_4: autoDraw = False
+604.9126 	DATA 	Keypress: lshift
+604.9130 	DATA 	Keypress: t
+605.1243 	EXP 	fix_cross_4: autoDraw = False
+605.1243 	EXP 	taste_text_water_short: autoDraw = False
+605.1243 	EXP 	waterg: autoDraw = False
+605.1243 	EXP 	taste_text_4: autoDraw = True
+606.5114 	DATA 	Keypress: lshift
+606.5181 	DATA 	Keypress: t
+608.1179 	DATA 	Keypress: lshift
+608.1180 	DATA 	Keypress: t
+609.1198 	EXP 	fix_cross_2: autoDraw = True
+609.1271 	EXP 	taste_text_4: autoDraw = False
+609.7169 	DATA 	Keypress: lshift
+609.7170 	DATA 	Keypress: t
+611.3153 	DATA 	Keypress: lshift
+611.3154 	DATA 	Keypress: t
+612.9159 	DATA 	Keypress: lshift
+612.9161 	DATA 	Keypress: t
+614.1392 	EXP 	taste_text_4: autoDraw = False
+614.1392 	EXP 	fix_cross_2: autoDraw = False
+614.1392 	EXP 	slider: markerPos = None
+614.1392 	EXP 	slider: markerPos = 3
+614.1392 	EXP 	slider: markerPos = 4
+614.1392 	EXP 	taste_text_2: autoDraw = True
+614.1392 	EXP 	slider: autoDraw = True
+614.5180 	DATA 	Keypress: lshift
+614.5181 	DATA 	Keypress: t
+614.6654 	DATA 	Keypress: a
+614.6831 	EXP 	slider: markerPos = 3
+615.6238 	DATA 	Keypress: a
+615.6408 	EXP 	slider: markerPos = 2
+616.1134 	DATA 	Keypress: lshift
+616.1135 	DATA 	Keypress: t
+617.7197 	DATA 	Keypress: lshift
+617.7198 	DATA 	Keypress: t
+619.1395 	EXP 	rinse_txt_short: autoDraw = True
+619.1466 	EXP 	taste_text_2: autoDraw = False
+619.1466 	EXP 	slider: autoDraw = False
+619.3134 	DATA 	Keypress: lshift
+619.3136 	DATA 	Keypress: t
+620.1251 	EXP 	taste_text_2: autoDraw = False
+620.1251 	EXP 	slider: autoDraw = False
+620.1251 	EXP 	rinse_txt_short: autoDraw = False
+620.1251 	EXP 	rinse_text: autoDraw = True
+620.9176 	DATA 	Keypress: lshift
+620.9177 	DATA 	Keypress: t
+622.5168 	DATA 	Keypress: lshift
+622.5170 	DATA 	Keypress: t
+624.1180 	DATA 	Keypress: lshift
+624.1184 	DATA 	Keypress: t
+624.1206 	EXP 	cross_3: autoDraw = True
+624.1266 	EXP 	rinse_text: autoDraw = False
+625.7155 	DATA 	Keypress: lshift
+625.7156 	DATA 	Keypress: t
+627.3156 	DATA 	Keypress: lshift
+627.3157 	DATA 	Keypress: t
+628.9135 	DATA 	Keypress: lshift
+628.9166 	DATA 	Keypress: t
+629.1265 	EXP 	cross_3: autoDraw = False
+629.1265 	EXP 	rinse_text: autoDraw = False
+629.1265 	EXP 	waterg: autoDraw = True
+630.5122 	DATA 	Keypress: lshift
+630.5123 	DATA 	Keypress: t
+632.1119 	DATA 	Keypress: lshift
+632.1159 	DATA 	Keypress: t
+633.7152 	DATA 	Keypress: lshift
+633.7153 	DATA 	Keypress: t
+634.1217 	EXP 	fix_cross_4: autoDraw = True
+634.1304 	EXP 	waterg: autoDraw = False
+635.3136 	DATA 	Keypress: lshift
+635.3137 	DATA 	Keypress: t
+636.9124 	DATA 	Keypress: lshift
+636.9129 	DATA 	Keypress: t
+638.5144 	DATA 	Keypress: lshift
+638.5146 	DATA 	Keypress: t
+639.1213 	EXP 	taste_text_water_short: autoDraw = True
+639.1242 	EXP 	fix_cross_4: autoDraw = False
+640.1155 	DATA 	Keypress: lshift
+640.1156 	DATA 	Keypress: t
+640.1217 	EXP 	fix_cross_4: autoDraw = False
+640.1217 	EXP 	taste_text_water_short: autoDraw = False
+640.1217 	EXP 	waterg: autoDraw = False
+640.1217 	EXP 	taste_text_4: autoDraw = True
+641.7149 	DATA 	Keypress: lshift
+641.7151 	DATA 	Keypress: t
+643.3154 	DATA 	Keypress: lshift
+643.3155 	DATA 	Keypress: t
+644.1217 	EXP 	fix_cross_2: autoDraw = True
+644.1244 	EXP 	taste_text_4: autoDraw = False
+644.9148 	DATA 	Keypress: lshift
+644.9149 	DATA 	Keypress: t
+646.5138 	DATA 	Keypress: lshift
+646.5139 	DATA 	Keypress: t
+648.1134 	DATA 	Keypress: lshift
+648.1135 	DATA 	Keypress: t
+649.1429 	EXP 	taste_text_4: autoDraw = False
+649.1429 	EXP 	fix_cross_2: autoDraw = False
+649.1429 	EXP 	slider: markerPos = None
+649.1429 	EXP 	slider: markerPos = 3
+649.1429 	EXP 	slider: markerPos = 4
+649.1429 	EXP 	taste_text_2: autoDraw = True
+649.1429 	EXP 	slider: autoDraw = True
+649.6398 	DATA 	Keypress: a
+649.6710 	EXP 	slider: markerPos = 3
+649.7154 	DATA 	Keypress: lshift
+649.7155 	DATA 	Keypress: t
+650.0313 	DATA 	Keypress: a
+650.0543 	EXP 	slider: markerPos = 2
+651.3150 	DATA 	Keypress: lshift
+651.3151 	DATA 	Keypress: t
+652.9176 	DATA 	Keypress: lshift
+652.9177 	DATA 	Keypress: t
+654.1376 	EXP 	rinse_txt_short: autoDraw = True
+654.1629 	EXP 	taste_text_2: autoDraw = False
+654.1629 	EXP 	slider: autoDraw = False
+654.5122 	DATA 	Keypress: lshift
+654.5123 	DATA 	Keypress: t
+655.1283 	EXP 	taste_text_2: autoDraw = False
+655.1283 	EXP 	slider: autoDraw = False
+655.1283 	EXP 	rinse_txt_short: autoDraw = False
+655.1283 	EXP 	rinse_text: autoDraw = True
+656.1134 	DATA 	Keypress: lshift
+656.1135 	DATA 	Keypress: t
+657.7144 	DATA 	Keypress: lshift
+657.7145 	DATA 	Keypress: t
+659.1204 	EXP 	cross_3: autoDraw = True
+659.1305 	EXP 	rinse_text: autoDraw = False
+659.3137 	DATA 	Keypress: lshift
+659.3138 	DATA 	Keypress: t
+660.9145 	DATA 	Keypress: lshift
+660.9149 	DATA 	Keypress: t
+662.5130 	DATA 	Keypress: lshift
+662.5131 	DATA 	Keypress: t
+664.1129 	DATA 	Keypress: lshift
+664.1132 	DATA 	Keypress: t
+664.1274 	EXP 	cross_3: autoDraw = False
+664.1274 	EXP 	rinse_text: autoDraw = False
+664.1274 	EXP 	mshake: autoDraw = True
+665.7124 	DATA 	Keypress: lshift
+665.7125 	DATA 	Keypress: t
+667.3125 	DATA 	Keypress: lshift
+667.3127 	DATA 	Keypress: t
+668.9126 	DATA 	Keypress: lshift
+668.9127 	DATA 	Keypress: t
+669.1233 	EXP 	fix_cross_3: autoDraw = True
+669.1344 	EXP 	mshake: autoDraw = False
+670.5133 	DATA 	Keypress: lshift
+670.5134 	DATA 	Keypress: t
+672.1121 	DATA 	Keypress: lshift
+672.1122 	DATA 	Keypress: t
+673.7129 	DATA 	Keypress: lshift
+673.7130 	DATA 	Keypress: t
+674.1185 	EXP 	taste_text_milkshake_short: autoDraw = True
+674.1269 	EXP 	fix_cross_3: autoDraw = False
+675.1207 	EXP 	fix_cross_3: autoDraw = False
+675.1207 	EXP 	taste_text_milkshake_short: autoDraw = False
+675.1207 	EXP 	mshake: autoDraw = False
+675.1207 	EXP 	taste_text_3: autoDraw = True
+675.3119 	DATA 	Keypress: lshift
+675.3167 	DATA 	Keypress: t
+676.9182 	DATA 	Keypress: lshift
+676.9185 	DATA 	Keypress: t
+678.5117 	DATA 	Keypress: lshift
+678.5164 	DATA 	Keypress: t
+679.1201 	EXP 	taste_text_3: autoDraw = False
+679.1201 	EXP 	fix_cross_1: autoDraw = True
+680.1143 	DATA 	Keypress: lshift
+680.1147 	DATA 	Keypress: t
+681.7142 	DATA 	Keypress: lshift
+681.7146 	DATA 	Keypress: t
+683.3119 	DATA 	Keypress: lshift
+683.3187 	DATA 	Keypress: t
+684.1389 	EXP 	fix_cross_1: autoDraw = False
+684.1389 	EXP 	taste_text_3: autoDraw = False
+684.1389 	EXP 	fix_cross_1: autoDraw = False
+684.1389 	EXP 	slider: markerPos = None
+684.1389 	EXP 	slider: markerPos = 3
+684.1389 	EXP 	slider: markerPos = 4
+684.1389 	EXP 	taste_text_2: autoDraw = True
+684.1389 	EXP 	slider: autoDraw = True
+684.6834 	DATA 	Keypress: b
+684.7010 	EXP 	slider: markerPos = 5
+684.9184 	DATA 	Keypress: lshift
+684.9186 	DATA 	Keypress: t
+685.3008 	DATA 	Keypress: b
+685.3176 	EXP 	slider: markerPos = 6
+686.5167 	DATA 	Keypress: lshift
+686.5168 	DATA 	Keypress: t
+688.1125 	DATA 	Keypress: lshift
+688.1177 	DATA 	Keypress: t
+689.1335 	EXP 	rinse_txt_short: autoDraw = True
+689.1577 	EXP 	taste_text_2: autoDraw = False
+689.1577 	EXP 	slider: autoDraw = False
+689.7119 	DATA 	Keypress: lshift
+689.7120 	DATA 	Keypress: t
+690.1266 	EXP 	taste_text_2: autoDraw = False
+690.1266 	EXP 	slider: autoDraw = False
+690.1266 	EXP 	rinse_txt_short: autoDraw = False
+690.1266 	EXP 	rinse_text: autoDraw = True
+691.3124 	DATA 	Keypress: lshift
+691.3125 	DATA 	Keypress: t
+692.9161 	DATA 	Keypress: lshift
+692.9163 	DATA 	Keypress: t
+694.1192 	EXP 	cross_3: autoDraw = True
+694.1283 	EXP 	rinse_text: autoDraw = False
+694.5146 	DATA 	Keypress: lshift
+694.5147 	DATA 	Keypress: t
+696.1143 	DATA 	Keypress: lshift
+696.1144 	DATA 	Keypress: t
+697.7146 	DATA 	Keypress: lshift
+697.7147 	DATA 	Keypress: t
+699.1246 	EXP 	cross_3: autoDraw = False
+699.1246 	EXP 	rinse_text: autoDraw = False
+699.1246 	EXP 	mshake: autoDraw = True
+699.3139 	DATA 	Keypress: lshift
+699.3140 	DATA 	Keypress: t
+700.9151 	DATA 	Keypress: lshift
+700.9152 	DATA 	Keypress: t
+702.5167 	DATA 	Keypress: lshift
+702.5168 	DATA 	Keypress: t
+704.1170 	DATA 	Keypress: lshift
+704.1171 	DATA 	Keypress: t
+704.1206 	EXP 	fix_cross_3: autoDraw = True
+704.1315 	EXP 	mshake: autoDraw = False
+705.7175 	DATA 	Keypress: lshift
+705.7176 	DATA 	Keypress: t
+707.3167 	DATA 	Keypress: lshift
+707.3168 	DATA 	Keypress: t
+708.9177 	DATA 	Keypress: lshift
+708.9178 	DATA 	Keypress: t
+709.1178 	EXP 	taste_text_milkshake_short: autoDraw = True
+709.1226 	EXP 	fix_cross_3: autoDraw = False
+710.1183 	EXP 	taste_text_milkshake_short: autoDraw = False
+710.1183 	EXP 	fix_cross_3: autoDraw = False
+710.1183 	EXP 	taste_text_milkshake_short: autoDraw = False
+710.1183 	EXP 	mshake: autoDraw = False
+710.1183 	EXP 	taste_text_3: autoDraw = True
+710.5133 	DATA 	Keypress: lshift
+710.5165 	DATA 	Keypress: t
+712.1132 	DATA 	Keypress: lshift
+712.1133 	DATA 	Keypress: t
+713.7134 	DATA 	Keypress: lshift
+713.7135 	DATA 	Keypress: t
+714.1176 	EXP 	fix_cross_1: autoDraw = True
+714.1232 	EXP 	taste_text_3: autoDraw = False
+715.3146 	DATA 	Keypress: lshift
+715.3147 	DATA 	Keypress: t
+716.9165 	DATA 	Keypress: lshift
+716.9166 	DATA 	Keypress: t
+718.5139 	DATA 	Keypress: lshift
+718.5140 	DATA 	Keypress: t
+719.1378 	EXP 	fix_cross_1: autoDraw = False
+719.1378 	EXP 	taste_text_3: autoDraw = False
+719.1378 	EXP 	fix_cross_1: autoDraw = False
+719.1378 	EXP 	slider: markerPos = None
+719.1378 	EXP 	slider: markerPos = 3
+719.1378 	EXP 	slider: markerPos = 4
+719.1378 	EXP 	taste_text_2: autoDraw = True
+719.1378 	EXP 	slider: autoDraw = True
+719.6369 	DATA 	Keypress: b
+719.6529 	EXP 	slider: markerPos = 5
+720.1142 	DATA 	Keypress: lshift
+720.1144 	DATA 	Keypress: t
+720.2083 	DATA 	Keypress: b
+720.2311 	EXP 	slider: markerPos = 6
+721.7138 	DATA 	Keypress: lshift
+721.7139 	DATA 	Keypress: t
+723.3147 	DATA 	Keypress: lshift
+723.3148 	DATA 	Keypress: t
+724.1310 	EXP 	rinse_txt_short: autoDraw = True
+724.1553 	EXP 	taste_text_2: autoDraw = False
+724.1553 	EXP 	slider: autoDraw = False
+724.9147 	DATA 	Keypress: lshift
+724.9149 	DATA 	Keypress: t
+725.1246 	EXP 	taste_text_2: autoDraw = False
+725.1246 	EXP 	slider: autoDraw = False
+725.1246 	EXP 	rinse_txt_short: autoDraw = False
+725.1246 	EXP 	rinse_text: autoDraw = True
+726.5162 	DATA 	Keypress: lshift
+726.5163 	DATA 	Keypress: t
+728.1160 	DATA 	Keypress: lshift
+728.1162 	DATA 	Keypress: t
+729.1220 	EXP 	cross_3: autoDraw = True
+729.1255 	EXP 	rinse_text: autoDraw = False
+729.7147 	DATA 	Keypress: lshift
+729.7147 	DATA 	Keypress: t
+731.3143 	DATA 	Keypress: lshift
+731.3144 	DATA 	Keypress: t
+732.9151 	DATA 	Keypress: lshift
+732.9152 	DATA 	Keypress: t
+734.1269 	EXP 	cross_3: autoDraw = False
+734.1269 	EXP 	rinse_text: autoDraw = False
+734.1269 	EXP 	waterg: autoDraw = True
+734.5145 	DATA 	Keypress: lshift
+734.5146 	DATA 	Keypress: t
+736.1144 	DATA 	Keypress: lshift
+736.1145 	DATA 	Keypress: t
+737.7140 	DATA 	Keypress: lshift
+737.7141 	DATA 	Keypress: t
+739.1219 	EXP 	fix_cross_4: autoDraw = True
+739.1325 	EXP 	waterg: autoDraw = False
+739.3181 	DATA 	Keypress: lshift
+739.3183 	DATA 	Keypress: t
+740.9151 	DATA 	Keypress: lshift
+740.9153 	DATA 	Keypress: t
+742.5129 	DATA 	Keypress: lshift
+742.5181 	DATA 	Keypress: t
+744.1139 	DATA 	Keypress: lshift
+744.1140 	DATA 	Keypress: t
+744.1209 	EXP 	taste_text_water_short: autoDraw = True
+744.1240 	EXP 	fix_cross_4: autoDraw = False
+745.1227 	EXP 	fix_cross_4: autoDraw = False
+745.1227 	EXP 	taste_text_water_short: autoDraw = False
+745.1227 	EXP 	waterg: autoDraw = False
+745.1227 	EXP 	taste_text_4: autoDraw = True
+745.7138 	DATA 	Keypress: lshift
+745.7183 	DATA 	Keypress: t
+747.3124 	DATA 	Keypress: lshift
+747.3154 	DATA 	Keypress: t
+748.9135 	DATA 	Keypress: lshift
+748.9136 	DATA 	Keypress: t
+749.1199 	EXP 	fix_cross_2: autoDraw = True
+749.1234 	EXP 	taste_text_4: autoDraw = False
+750.5141 	DATA 	Keypress: lshift
+750.5142 	DATA 	Keypress: t
+752.1158 	DATA 	Keypress: lshift
+752.1159 	DATA 	Keypress: t
+753.7137 	DATA 	Keypress: lshift
+753.7138 	DATA 	Keypress: t
+754.1416 	EXP 	taste_text_4: autoDraw = False
+754.1416 	EXP 	fix_cross_2: autoDraw = False
+754.1416 	EXP 	slider: markerPos = None
+754.1416 	EXP 	slider: markerPos = 3
+754.1416 	EXP 	slider: markerPos = 4
+754.1416 	EXP 	taste_text_2: autoDraw = True
+754.1416 	EXP 	slider: autoDraw = True
+754.6649 	DATA 	Keypress: a
+754.6861 	EXP 	slider: markerPos = 3
+755.2458 	DATA 	Keypress: a
+755.2624 	EXP 	slider: markerPos = 2
+755.3132 	DATA 	Keypress: lshift
+755.3133 	DATA 	Keypress: t
+756.9140 	DATA 	Keypress: lshift
+756.9142 	DATA 	Keypress: t
+758.5129 	DATA 	Keypress: lshift
+758.5236 	DATA 	Keypress: t
+759.1291 	EXP 	rinse_txt_short: autoDraw = True
+759.1518 	EXP 	taste_text_2: autoDraw = False
+759.1518 	EXP 	slider: autoDraw = False
+760.1153 	DATA 	Keypress: lshift
+760.1156 	DATA 	Keypress: t
+760.1273 	EXP 	taste_text_2: autoDraw = False
+760.1273 	EXP 	slider: autoDraw = False
+760.1273 	EXP 	rinse_txt_short: autoDraw = False
+760.1273 	EXP 	rinse_text_2: autoDraw = True
+761.7122 	DATA 	Keypress: lshift
+761.7171 	DATA 	Keypress: t
+763.3168 	DATA 	Keypress: lshift
+763.3169 	DATA 	Keypress: t
+764.1257 	EXP 	rinse_text_2: autoDraw = False
+764.1257 	EXP 	thank_you_text: autoDraw = True
+798.0808 	DATA 	Keypress: escape
+798.7109 	EXP 	window1: mouseVisible = True
