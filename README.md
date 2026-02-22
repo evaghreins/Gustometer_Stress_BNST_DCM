@@ -93,6 +93,9 @@ Contains de-identified processed data products used as inputs for the PEB analys
 - Demographic_Behaviour_data.xlsx  
   Demographic and behavioural summary measures
 
+- Gusto_ratings.prism
+  Stress, hunger and beverage ratings analysis and graphing
+
 ---
 
 ## hrv/
