@@ -90,12 +90,6 @@ Contains de-identified processed data products used as inputs for the PEB analys
 
 ### Additional files
 
-- sex_ID.mat  
-  Table mapping:
-  - ID – participant identifier
-  - gcm_idx – subject index/order within corresponding GCM_*.mat files
-  - sex – recorded as M/F
-
 - Demographic_Behaviour_data.xlsx  
   Demographic and behavioural summary measures
 
