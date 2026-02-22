@@ -94,7 +94,7 @@ Contains de-identified processed data products used as inputs for the PEB analys
   Demographic and behavioural summary measures
 
 - Gusto_ratings.prism
-  Stress, hunger and beverage ratings analysis and graphing
+  Stress, hunger and beverage ratings analysis and graphing. GraphPad PRISM files can be viewed for free using GraphPad Prism Viewer.
 
 ---
 
